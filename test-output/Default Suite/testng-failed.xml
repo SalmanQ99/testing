@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="_1LMTestingFrameWorkcom(failed)">
+    <classes>
+      <class name="failedTests">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- failedTests -->
+    </classes>
+  </test> <!-- _1LMTestingFrameWorkcom(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
