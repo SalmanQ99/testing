@@ -11,7 +11,7 @@ public class dataProvider {
         excelutility excel= new excelutility();
         int row =excel.getRowCount();
         int column = excel.getcolCount();
-
+         System.out.println("test");
         Object data[][] =new Object[row -1][column];
 
         for (int i = 1; i<row; i++){
